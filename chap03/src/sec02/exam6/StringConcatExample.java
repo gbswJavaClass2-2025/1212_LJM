@@ -1,4 +1,4 @@
-package sec2.exam6;
+package sec02.exam6;
 
 public class StringConcatExample {
 
