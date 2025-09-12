@@ -1,0 +1,14 @@
+package sec01.exam08;
+
+public class SwitchStringExample {
+
+	public static void main(String[] args) {
+		String position = "과정";
+		
+		switch(position) {
+			case "과정":
+		}
+
+	}
+
+}

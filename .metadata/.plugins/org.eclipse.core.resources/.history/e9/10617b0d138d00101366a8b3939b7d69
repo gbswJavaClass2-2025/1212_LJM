@@ -1,0 +1,10 @@
+package sec2.exam6;
+
+public class StringConcatExample {
+
+	public static void main(String[] args) {
+		String str1 = "JDK" + 6.0;
+
+	}
+
+}

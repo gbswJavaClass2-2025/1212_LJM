@@ -1,0 +1,16 @@
+package sec02.exam07;
+
+public class SwitchCharExample {
+
+	public static void main(String[] args) {
+		char grade = 'B';
+		
+		switch(grade) {
+			case 'A':
+			case 'a':
+				System.out.println("우수 회원입니다.");
+		}
+
+	}
+
+}

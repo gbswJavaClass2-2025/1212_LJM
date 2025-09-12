@@ -1,0 +1,16 @@
+package sec02.exam07;
+
+public class WhleSumFrom1To100Example {
+
+	public static void main(String[] args) {
+		int sum = 0;
+		
+		int i = 1;
+		
+		while(<=100) {
+			
+		}
+
+	}
+
+}

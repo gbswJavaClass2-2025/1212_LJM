@@ -1,0 +1,11 @@
+package sec2.exam5;
+
+public class CharOperationExample {
+
+	public static void main(String[] args) {
+		char c1 = 'A' + 1;
+		
+
+	}
+
+}
