@@ -12,4 +12,12 @@ public class Dog extends Animal{
 	public void makeSound() {
 		System.out.println(bread + "소리: 멍멍!(품종: " + bread + ")");
 	}
+	@Override
+	public void eat() {
+		System.out.println(bread + ": 개이/가 일반적인 방식으로 먹이를 먹습니다.");
+	}
+	@Override
+	public void eat(String prey) {
+		System.out.println(bread + ": 이/가 " + prey + "을/를 맛있게 먹습니다.");
+	}
 }
