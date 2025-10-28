@@ -18,6 +18,6 @@ public class Dog extends Animal{
 	}
 	@Override
 	public void eat(String prey) {
-		System.out.println(bread + ": 이/가 " + prey + "을/를 맛있게 먹습니다.");
+		System.out.println(bread + ": 개이/가 " + prey + "을/를 맛있게 먹습니다.");
 	}
 }
