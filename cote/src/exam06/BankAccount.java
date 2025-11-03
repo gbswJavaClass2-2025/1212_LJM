@@ -4,12 +4,12 @@ public class BankAccount {
 	private String name;
 	private String accountNumber;
 	private int balance;
-	public BankAccount(String name,String accounNumber){
+	public BankAccount(String name,String accountNumber){
 		this.name = name;
 		this.accountNumber = accountNumber;
 		System.out.println("BankAccount 객체 생성");
 	}
-	public BankAccount(String name,String accounNumber,int balance){
+	public BankAccount(String name,String accountNumber,int balance){
 		this.name = name;
 		this.accountNumber = accountNumber;
 		this.balance = balance;
@@ -27,5 +27,23 @@ public class BankAccount {
 	public void deposit(int amount) {
 		balance += amount;
 		System.out.println(amount + " 입금하고 잔고 출력");
+	}
+	public void SetName(String name) {
+		this.name = name;
+	}
+	public String GetName() {
+		return this.name;
+	}
+	public void SetccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	public String GetaccountNumber() {
+		return this.accountNumber;
+	}
+	public void SetBalance(int balance) {
+		this.balance = balance;
+	}
+	public int GetBalance() {
+		return balance;
 	}
 }
