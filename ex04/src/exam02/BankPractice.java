@@ -4,6 +4,8 @@ public class BankPractice {
 
 	public static void main(String[] args) {
 		System.out.println("----- 은행 계좌 시스템 실습 시작 -----");
+		System.out.println("\n------------------------------------\n");
+		System.out.println("[정보 출력]");
 		BankAccount stand = new BankAccount("100-01-123456", "김철수");
 		SavingsAccount save = new SavingsAccount("200-02-789012", "이영희", 2.5);
 		System.out.println("\n------------------------------------\n");
