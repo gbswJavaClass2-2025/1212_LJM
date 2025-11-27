@@ -12,5 +12,4 @@ public class Game {
 		System.out.println("Attacker:" + m1.GetHp());
 		System.out.println("Defender:" + m2.GetHp());
 	}
-
 }

@@ -10,5 +10,5 @@ public class Attacker extends AbstractMonster{
 		System.out.println("Attacker - Very Strong Attack");
 		return this.attack;
 	}
-	
+	ㅌ
 }
